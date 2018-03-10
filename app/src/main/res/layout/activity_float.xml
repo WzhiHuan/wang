@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:background="#FFB6C1"
+        android:gravity="center"
+        android:text="我是顶部" />
+
+    <com.wjy.wangjyandroid.DragView
+        android:clickable="true"
+        android:layout_gravity="end|bottom"
+        android:id="@+id/floatView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/circle"/>
+
+</FrameLayout>
+
+<!--<com.wjy.wangjyandroid.DragViewGroup xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/dragGroup"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
